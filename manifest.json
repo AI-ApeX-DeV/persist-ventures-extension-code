@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Auto Form Filler",
+    "version": "1.0",
+    "description": "Automatically fills forms using OpenAI API.",
+    "permissions": [
+      "tabs",
+      "activeTab", 
+      "https://example.com/*" 
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://example.com/*"], 
+        "js": ["content.js"]
+      }
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
