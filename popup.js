@@ -5,4 +5,5 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     });
   });
-  
+// This is the code by syed sharukhali farookali naziyabegum for persist ventures internship
+        
